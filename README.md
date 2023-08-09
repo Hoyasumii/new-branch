@@ -1,4 +1,8 @@
 # Atualize a sua branch com praticidade!
 
 - Para usar:
-> bash update-branch.sh \<branch-desejada\> \<nova-branch\> # Removendo o as chaves 
+1. Tenha o `curl` instalado
+2. Execute o script em seu `Terminal`:
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/Hoyasumii/update-branch/main/update-branch.sh)" <branch-desejada> <nova-branch>
+```
