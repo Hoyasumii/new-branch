@@ -15,4 +15,6 @@ if git remote -v | grep -q "fetch"; then
 fi
 
 git checkout -b $newBranch;
+clear;
+echo "Branch $newBranch foi criada com sucesso!";
 
